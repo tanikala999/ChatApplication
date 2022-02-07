@@ -9,7 +9,7 @@ class User {
 
     constructor(name: String?, email: String?, uid: String?) {
         this.name = name
-        this. email = email
-        this. uid = uid
+        this.email = email
+        this.uid = uid
     }
 }
