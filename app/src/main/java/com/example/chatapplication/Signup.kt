@@ -34,7 +34,7 @@ class Signup : AppCompatActivity() {
         buttonSignup = findViewById(R.id.button_signup)
 
         buttonSignup.setOnClickListener {
-            val name = editName.toString()
+            val name = editName.text.toString()
             val email = editEmail.text.toString()
             val password = editPassword.text.toString()
 
